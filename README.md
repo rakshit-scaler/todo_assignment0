@@ -6,9 +6,9 @@
 
 #Installation
 
-Install ruby with version (2.4.10) with (ruby+devkit) (https://rubyinstaller.org/downloads/archives/)
+Install ruby with version (2.4.10) with (ruby+devkit) (https://rubyinstaller.org/downloads/archives/)<br>
 Install bunderl with version (4.2.1) with command [gem install bundler -v '2.1.4'] <br>
-Install Rails with version (5.1.7) with git clone and build bundle (https://github.com/ngudbhav/rails-webpack-boilerplate)
+Install Rails with version (5.1.7) with git clone and build bundle (https://github.com/ngudbhav/rails-webpack-boilerplate)<br>
 finally : Run bundle install<br>
 
 #Web Application Images
