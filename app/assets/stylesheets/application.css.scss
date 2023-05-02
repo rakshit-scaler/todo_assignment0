@@ -17,8 +17,8 @@
 
 
  
- $white_opaque: rgba(250, 250, 250, .3);
- $dark: #1F7972;
+ $white_opaque: rgba(250, 250, 250, 0.498);
+ $dark: #172020;
 
 * {
 	box-sizing: border-box;
@@ -28,13 +28,10 @@ html {
 }
 
 body {
+	overflow-y: scroll;
  	height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  font-family: 'Lato', sans-serif;
+	background: linear-gradient(to right, #009fff, #ec2f4b);
+  	font-family: 'Lato', sans-serif;
 }
 
 .clearfix:before,
@@ -131,6 +128,8 @@ body {
 			color: white;
 			transition: all .4s ease-in-out;
 			&:hover {
+				transition-duration: 1s;
+				transform: scale(1.1);
 				color: $dark;
 			}
 		}
@@ -160,6 +159,8 @@ body {
 			transition: all .4s ease-in-out;
 			cursor: pointer;
 			&:hover {
+				transition-duration: 1s;
+				transform: scale(1.1);
 				background: $dark;
 			}
 		}
@@ -175,6 +176,11 @@ body {
 	color: white;
 	a {
 		color: white;
+	}
+	a:hover{
+		transition-duration: 0.5s;
+		font-size: 1.01rem;
+		color: $dark;
 	}
 }
 
@@ -210,6 +216,8 @@ input[type="submit"] {
 	cursor: pointer;
 	color: $dark;
 	&:hover {
+		transition-duration: 1s;
+		transform: scale(1.1);
 		background: $dark;
 		color: white;
 	}
